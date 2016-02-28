@@ -2,6 +2,8 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    
+    ofBackground(200);
 
 }
 
@@ -10,8 +12,15 @@ void ofApp::update(){
 
 }
 
+void ofApp::square(){
+    ofSetColor(34, 34, 123);
+    ofFill();
+    ofDrawRectangle(ofGetWidth()/2, ofGetHeight()/2, 100, 100);
+}
+
 //--------------------------------------------------------------
 void ofApp::draw(){
+    square();
 
 }
 

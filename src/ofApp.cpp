@@ -15,21 +15,32 @@ void ofApp::update(){
 void ofApp::square(){
     ofSetColor(34, 34, 123);
     ofFill();
-    ofDrawRectangle(ofGetWidth()/2, ofGetHeight()/2, 100, 100);
+    ofRect(ofGetWidth()/2, ofGetHeight()/2, 200, 200);
 }
 
 
 void ofApp::triangle(){
-    ofSetColor(34, 34, 123);
+    ofSetColor(34, 255, 123);
     ofFill();
-    ofDrawRectangle(ofGetWidth()/4, ofGetHeight()/4, 100, 100);
+    ofRect(ofGetWidth()/4, ofGetHeight()/4, 200, 200);
 }
+
+
+void ofApp::circle(){
+    ofSetColor(255, 34, 123);
+    ofFill();
+    ofEllipse(ofGetWidth()/6, ofGetHeight()/6, 200, 200);
+}
+
+
+
+
 
 //--------------------------------------------------------------
 void ofApp::draw(){
     square();
     triangle();
-    
+    circle();
 }
 
 //--------------------------------------------------------------

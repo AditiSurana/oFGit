@@ -22,7 +22,7 @@ void ofApp::square(){
 void ofApp::triangle(){
     ofSetColor(34, 34, 123);
     ofFill();
-    ofDrawRectangle(ofGetWidth()/2, ofGetHeight()/2, 100, 100);
+    ofDrawRectangle(ofGetWidth()/4, ofGetHeight()/4, 100, 100);
 }
 
 //--------------------------------------------------------------
